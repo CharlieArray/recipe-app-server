@@ -23,12 +23,13 @@ shoppinglistRouter.get('/', requireAuth, (req,res, next) => {
   
 //ADD NEW ITEM to DB for User (path: /)
 shoppinglistRouter.post('/', bodyParser, requireAuth, (req,res,next)=>{
-  
+        const {item} = req.body  
+
         const knexInstance = req.app.get('db')
-        ShoppinglistService.addItem(knexInstance, data)
-        .then((data)=>{
+        ShoppinglistService.addItem(knexInstance, {item, users_id: req.user.id})
+        .then(({item})=>{
           res.status(201)
-          res.json(data)
+          res.json({item})
         })
         .catch(next);
       });
