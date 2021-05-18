@@ -2,7 +2,8 @@
 
 ## This is the Server for the Recipe/Grocery App
 
-## The link to the front-end/main documentation can be found: https://github.com/CharlieArray/recipe-app
+## The link to the front-end/main documentation can be found: 
+https://github.com/CharlieArray/recipe-app
 
 ## Details
 
