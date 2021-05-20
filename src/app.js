@@ -21,10 +21,9 @@ app.use('/api/auth', authRouter)
 app.use('/api/users', usersRouter)
 app.use('/api/shoppinglist', shoppinglistRouter)
 
-
-app.get("/", (req, res) => {
-  res.send("Hello, world!");
-});
+app.get('/', (req,res,next) =>{
+    res.status(200).send("Server is live")
+})
 
 app.use(function errorHandler(error, req, res, next) {
   let response;
