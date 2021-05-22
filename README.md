@@ -6,10 +6,10 @@
 https://github.com/CharlieArray/recipe-app
 
 ### Details
-
 This back-end server stores shopping list items on a remote heroku PostgresQL database so users can sign back in and have access to their shopping list.
 
-### Technology stack used: This API server utilized Node.js, Express, and a few other dependencies such as Mocha and Chai.
+### Technology stack used: 
+This API server utilized Node.js, Express, and a few other dependencies such as Mocha and Chai.
 
 ## App Screenshots
 ### Login Page for Returning Users
