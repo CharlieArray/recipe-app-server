@@ -11,7 +11,7 @@ This API server utilized Node.js, Express.js, and a few other dependencies such 
 
 ## App Screenshots
 ### Login Page for Returning Users
-![login](https://user-images.githubusercontent.com/59151304/118582215-9a613900-b758-11eb-81c5-24eee6a1a572.PNG)
+![Login Page](https://user-images.githubusercontent.com/59151304/119290479-2d471b00-bc12-11eb-89a2-5f1172828c68.PNG)
 
 ### Main Page on User Login
 ![mainPage](https://user-images.githubusercontent.com/59151304/118582216-9a613900-b758-11eb-887e-3c20e1af8a51.PNG)
